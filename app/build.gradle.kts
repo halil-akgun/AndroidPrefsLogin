@@ -7,6 +7,11 @@ android {
     namespace = "com.example.androidprefslogin"
     compileSdk = 35
 
+    // Enable view binding
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.androidprefslogin"
         minSdk = 24
